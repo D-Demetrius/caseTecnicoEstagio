@@ -11,17 +11,31 @@
 <body>
 
     <section class="container">
+
         <div class="welcome-content">
 
             <header class="header">
+
                 <img class="logo" src="../assets/logo.png" alt="#">
-                <div class="categories">
-                    <ul><a class="cat1" href="#">Categoria 1</a></ul>
-                    <ul><a class="cat2" href="#">Categoria 2</a></ul>
-                    <ul><a class="cat3" href="#">Categoria 3</a></ul>
-                    <ul><a class="cat4" href="#">Categoria 4</a></ul>
-                </div>
+
+                <nav class="nav-menu">
+
+                    <button id="ham-btn" class="ham-btn" aria-label="Menu Principal" aria-controls="menu"
+                        aria-expanded="true">
+                        <span class="icon"></span>
+                    </button>
+
+                    <ul id="menu" class="menu">
+                        <li><a class="cat1" href="#">Categoria 1</a></li>
+                        <li><a class="cat2" href="#">Categoria 2</a></li>
+                        <li><a class="cat3" href="#">Categoria 3</a></li>
+                        <li><a class="cat4" href="#">Categoria 4</a></li>
+                    </ul>
+
+                </nav>
+                
             </header>
+
 
             <div class="welcome-text">
                 <span class="welcome-textbox">
@@ -229,7 +243,9 @@
                 <p class="form-title">Lorem ipsum dolor sit amet consectetur</p>
                 <p class="form-subtitle">Lorem ipsum dolor sit amet consectetur.
                     Semper orci adipiscing faucibus sit scelerisque</p>
-                <span class="forme-subtitle2"><p>*Lorem ipsum dolor sit amet consectetur</p></span>
+                <span class="forme-subtitle2">
+                    <p>*Lorem ipsum dolor sit amet consectetur</p>
+                </span>
             </div>
             <div class="form-fields">
                 <span class="inputs1">
@@ -268,7 +284,7 @@
 
 
     <div class="rectangle">
-         <div></div>
+        <div></div>
     </div>
 
 
@@ -295,6 +311,7 @@
 
 
     <script src="../js/script.js"></script>
+    <script src="../js/menu.js"></script>
 </body>
 
 </html>
