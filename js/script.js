@@ -11,9 +11,9 @@ window.onload = function(){
     num2html.innerHTML = num2;
 
 
-    // setTimeout(() => {
-    //     alert("Hello World! Mensagem para o examinador.");
-    // }, 1000);
+    setTimeout(() => {
+        alert("Hello World! Bem-vindo(a)! Fique à vontade para explorar o projeto.");
+    }, 1000);
 }
 
 //* Soma números randomicos
