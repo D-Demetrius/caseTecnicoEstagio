@@ -89,7 +89,7 @@ body {
 .ham-btn-js-enabled+.menu {
     display: flex;
     position: absolute;
-    width: calc(100%);
+    width: 50%;
     /* left: 15px; */
     top: 60px;
     flex-direction: column;
@@ -133,9 +133,15 @@ body {
 .menu li {
     padding: 0;
     min-width: 100px;
-    max-width: 141px;
+    max-width: 120px;
     height: 24px;
     margin: 0;
+}
+@media (max-width:768px) {
+
+    .menu li {
+        margin: 8px 0;
+    }
 }
 
 .ham-btn {
