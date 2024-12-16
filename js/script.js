@@ -9,6 +9,11 @@ window.onload = function(){
 
     num1html.innerHTML = num1;
     num2html.innerHTML = num2;
+
+
+    // setTimeout(() => {
+    //     alert("Hello World! Mensagem para o examinador.");
+    // }, 1000);
 }
 
 //* Soma números randomicos
@@ -37,9 +42,9 @@ document.getElementById('form-btn').onclick = function () {
 
 
 
-    setTimeout(() => {
-        console.log("Soma dos números:", somaNumeros());
-    }, 100);
+    // setTimeout(() => {
+    //     console.log("Soma dos números:", somaNumeros());
+    // }, 100);
 
 };
 
